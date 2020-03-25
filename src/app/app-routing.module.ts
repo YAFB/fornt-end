@@ -23,6 +23,22 @@ const routes: Routes = [
     path: 'descripcionservicio',
     loadChildren: () => import('./pages/descripcionservicio/descripcionservicio.module').then( m => m.DescripcionservicioPageModule)
   },
+  {
+    path: 'crearcuenta',
+    loadChildren: () => import('./pages/crearcuenta/crearcuenta.module').then( m => m.CrearcuentaPageModule)
+  },
+  {
+    path: 'servicios',
+    loadChildren: () => import('./pages/servicios/servicios.module').then( m => m.ServiciosPageModule)
+  },
+  {
+    path: 'contacto',
+    loadChildren: () => import('./pages/contacto/contacto.module').then( m => m.ContactoPageModule)
+  },
+  {
+    path: 'servicios',
+    loadChildren: () => import('./pages/servicios/servicios.module').then( m => m.ServiciosPageModule)
+  },
   
 ];
 
