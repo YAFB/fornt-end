@@ -1,0 +1,88 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/" color="light"></ion-back-button>
+    </ion-buttons>
+    <ion-title color="light" class="titulo">Perfil</ion-title>
+
+    <ion-buttons slot="end">
+      <ion-button ((click)="toggleMenu()">
+      <ion-icon slot="icon-only" name="menu" color="light"></ion-icon>
+    </ion-button>
+  </ion-buttons>
+      <!--<ion-menu side="start"   menuId="first" contentId="principal">
+        <ion-header>
+          <ion-toolbar color="primary">
+            <ion-title>Start Menu</ion-title>
+          </ion-toolbar>
+        </ion-header>
+        <ion-content>
+          <ion-list>
+            <ion-item>Menu Item</ion-item>>
+            <ion-item>Menu Item</ion-item>>
+            <ion-item>Menu Item</ion-item>>
+            <ion-item>Menu Item</ion-item>>
+            <ion-item>Menu Item</ion-item>>
+          </ion-list>
+        </ion-content>
+   </ion-menu>
+  <ion-router-outlet id="principal"></ion-router-outlet>-->
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="fondo">
+  <ion-avatar class="centrado mt-5">
+    <img src="/assets/man.svg">
+    
+  </ion-avatar>
+
+  <ion-fab vertical="undefined" horizontal="end" slot="fixed" class="botonadd" >
+    <ion-fab-button color="secondary">
+      <ion-icon icon="add-outline"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-list side="bottom">
+      <ion-fab-button><ion-icon icon="images-outline"></ion-icon>
+      
+      </ion-fab-button>
+      
+      <ion-fab-button><ion-icon icon="camera-outline"></ion-icon></ion-fab-button>
+    </ion-fab-list>
+  </ion-fab>
+  <ion-list>
+    
+      <ion-input type="text" class="login mt-4 mr-2 ml-2" placeholder="Nombre">
+
+      </ion-input>
+   
+  
+      <ion-input type="text" class="login mt-2 mr-2 ml-2" placeholder="Telefono">
+
+      </ion-input>
+    
+    
+      <ion-input type="text" class="login mt-2 mr-2 ml-2" placeholder="Correo Electronico">
+
+      </ion-input>
+   
+  
+      <ion-textarea type="text" class="login mt-2 mr-5 ml-2 " placeholder="Identificacion" style="padding-bottom: 10%;">
+        <ion-fab vertical="bottom" horizontal="end" slot="fixed"  >
+          <ion-fab-button color="light" size="small">
+            <ion-icon icon="camera-outline"></ion-icon>
+          </ion-fab-button>
+          <ion-fab-list side="bottom">
+            <ion-fab-button><ion-icon icon="images-outline"></ion-icon>
+            
+            </ion-fab-button>
+         
+            <ion-fab-button><ion-icon icon="camera-outline"></ion-icon></ion-fab-button>
+          </ion-fab-list>
+        </ion-fab>
+
+      </ion-textarea>
+    
+    <ion-button  class="top20 container-fluid boton mb-4"color="secondary" >Actualizar</ion-button>
+    
+  </ion-list>
+</ion-content>

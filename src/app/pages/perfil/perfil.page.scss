@@ -1,0 +1,50 @@
+.top20{
+    margin-top: 20px;
+}
+.top40{
+    margin-top: 10%;
+}
+.centradologo{
+    margin-left: 33%;
+  }
+  .centrado{
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  ion-avatar { 
+    width: 250px;  
+    height: 250px;  
+}
+.titulo{
+    color: white;
+    margin-left: 31% ;
+}
+.botonadd{
+    margin-right: 16%;
+    margin-top: 59%;
+}
+ion-content{
+
+    --ion-background-color:#EBEFF2;
+}
+ion-header{
+
+    --ion-background-color:#F27405;
+}
+idboton{
+    margin-bottom: 7%;
+}
+
+ion-input, ion-textarea{
+    --border-color: #707070!important;
+    --highlight-height: 0;
+    background-color: white!important;
+    border: 1px solid #dedede;
+    border-radius: 6px;
+    &.item-has-focus {
+        border: 1px solid var(--ion-color-light);
+
+
+    }
+}
