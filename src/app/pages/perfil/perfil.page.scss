@@ -18,11 +18,19 @@
 }
 .titulo{
     color: white;
-    margin-left: 31% ;
+    text-align: center; ;
 }
 .botonadd{
-    margin-right: 22%;
-    margin-top: 43%;
+    margin-right: 25%;
+    margin-top: 48%;
+}
+.aggboton{
+    height: 45px;
+    width: 45px;
+}
+ion-label{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 ion-content{
 
@@ -40,6 +48,7 @@ ion-input, ion-textarea{
     background-color: white!important;
     border: 1px solid #dedede;
     border-radius: 6px;
+    width: auto;
     &.item-has-focus {
         border: 1px solid var(--ion-color-light);
 

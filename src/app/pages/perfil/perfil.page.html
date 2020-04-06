@@ -6,28 +6,10 @@
     <ion-title color="light" class="titulo">Perfil</ion-title>
 
     <ion-buttons slot="end">
-      <ion-button ((click)="toggleMenu()">
+      <ion-button (click)="toggleMenu()">
       <ion-icon slot="icon-only" name="menu" color="light"></ion-icon>
-    </ion-button>
-  </ion-buttons>
-      <!--<ion-menu side="start"   menuId="first" contentId="principal">
-        <ion-header>
-          <ion-toolbar color="primary">
-            <ion-title>Start Menu</ion-title>
-          </ion-toolbar>
-        </ion-header>
-        <ion-content>
-          <ion-list>
-            <ion-item>Menu Item</ion-item>>
-            <ion-item>Menu Item</ion-item>>
-            <ion-item>Menu Item</ion-item>>
-            <ion-item>Menu Item</ion-item>>
-            <ion-item>Menu Item</ion-item>>
-          </ion-list>
-        </ion-content>
-   </ion-menu>
-  <ion-router-outlet id="principal"></ion-router-outlet>-->
-    
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
@@ -38,8 +20,8 @@
   </ion-avatar>
 
   <ion-fab vertical="undefined" horizontal="end" slot="fixed" class="botonadd" >
-    <ion-fab-button color="secondary">
-      <ion-icon icon="add-outline"></ion-icon>
+    <ion-fab-button class="aggboton" color="secondary">
+      <ion-label>Editar</ion-label>
     </ion-fab-button>
     <ion-fab-list side="bottom">
       <ion-fab-button><ion-icon icon="images-outline"></ion-icon>
@@ -51,38 +33,39 @@
   </ion-fab>
   <ion-list>
     
-      <ion-input type="text" class="login mt-4 mr-2 ml-2" placeholder="Nombre">
+      <ion-input type="text" class="login mt-4 mr-2 ml-2" placeholder=" Nombre">
 
       </ion-input>
    
   
-      <ion-input type="text" class="login mt-2 mr-2 ml-2" placeholder="Telefono">
+      <ion-input type="text" class="login mt-2 mr-2 ml-2" placeholder=" Telefono">
 
       </ion-input>
     
     
-      <ion-input type="text" class="login mt-2 mr-2 ml-2" placeholder="Correo Electronico">
+      <ion-input type="text" class="login mt-2 mr-2 ml-2" placeholder=" Correo Electronico">
 
       </ion-input>
       <div class="row">
         <div class="col-12">
-          <ion-input type="text" class="login mt-2 mr-2 ml-2" placeholder="Calle"></ion-input>
+          <ion-input type="text" class="login mt-2 mr-2 ml-2" placeholder=" Calle"></ion-input>
         </div>
       
-      <div class="col-6">
-        <ion-input type="number" class="login mt-2 mr-2 ml-2" placeholder="Num. interior"></ion-input>
+        <div class="col-6">
+          <ion-input type="number" class="login mt-2 mr-0 ml-2" placeholder=" Num. interior"></ion-input>
+        </div>
+        
+        <div class="col-6">
+          <ion-input type="number" class="login mt-2 mr-2 ml-0" placeholder=" Num. exterior"></ion-input>
+        </div>
+        <div class="col-6">
+          <ion-input type="number" class="login mt-2 mr-0 ml-2" placeholder=" Codigo Postal"></ion-input>
+        </div>
+        <div class="col-6">
+          <ion-input type="text" class="login mt-2 mr-2 ml-0" placeholder=" Colonia"></ion-input>
+        </div>
       </div>
-      <div class="col-6">
-        <ion-input type="number" class="login mt-2 mr-2 ml-2" placeholder="Num. exterior"></ion-input>
-      </div>
-      <div class="col-6">
-        <ion-input type="number" class="login mt-2 mr-2 ml-2" placeholder="Codigo Postal"></ion-input>
-      </div>
-      <div class="col-6">
-        <ion-input type="text" class="login mt-2 mr-2 ml-2" placeholder="Colonia"></ion-input>
-      </div>
-    </div>
-      <ion-textarea type="text" class="login mt-2 mr-5 ml-2 " placeholder="Referencias" style="padding-bottom: 5%;">
+      <ion-textarea type="text" class="login mt-2 mr-2 ml-2 " placeholder=" Referencias" style="padding-bottom: 5%;">
         <ion-fab vertical="bottom" horizontal="end" slot="fixed"  >
           <ion-fab-button color="light" size="small">
             <ion-icon icon="camera-outline"></ion-icon>
