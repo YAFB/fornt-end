@@ -5,8 +5,19 @@ ion-header{
 .title{
     font-weight: 700;
     font-size: 25px;
+    margin-left: 5px;
+}
+
+.titulo{
+    color: white;
+    text-align: center; ;
 }
 .subtitle{
     font-size: 23px;
+    margin-left: 5px;
+}
 
+ion-card{
+    height: auto;
+    width: auto;
 }
