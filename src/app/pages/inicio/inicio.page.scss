@@ -1,0 +1,28 @@
+ion-header{
+
+    --ion-background-color:#EBEFF2;
+}
+ion-content{
+
+    --ion-background-color:#EBEFF2;
+}
+.title
+{
+    color: #0D0D0D;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ion-img{
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.img1, .img2{
+    margin-left: 35px;
+}
+a{
+    display: flexbox;
+}
