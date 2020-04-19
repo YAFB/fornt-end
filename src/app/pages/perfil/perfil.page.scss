@@ -17,8 +17,11 @@
     height: 180px;  
 }
 .titulo{
-    color: white;
-    text-align: center; ;
+    color: #0D0D0D;
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .botonadd{
     margin-right: 25%;
@@ -38,7 +41,7 @@ ion-content{
 }
 ion-header{
 
-    --ion-background-color:#F27405;
+    --ion-background-color:#EBEFF2;
 }
 
 
