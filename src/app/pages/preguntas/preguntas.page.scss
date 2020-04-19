@@ -1,0 +1,31 @@
+ion-header{
+
+    --ion-background-color:#F27405;
+}
+ion-title{
+    text-align: center;
+}
+.solicitados{
+    color: #707070;
+}
+.pregunta{
+    font-weight: bold;
+    margin-top: 50%;
+}
+ion-content{
+
+    --ion-background-color:#EBEFF2;
+}
+ion-input, ion-textarea{
+    --border-color: #707070!important;
+    --highlight-height: 0;
+    background-color: white!important;
+    border: 1px solid #dedede;
+    border-radius: 6px;
+    width: auto;
+    &.item-has-focus {
+        border: 1px solid var(--ion-color-light);
+
+
+    }
+}
