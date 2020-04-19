@@ -42,6 +42,10 @@ const routes: Routes = [
   {
     path: 'ayuda',
     loadChildren: () => import('./pages/ayuda/ayuda.module').then( m => m.AyudaPageModule)
+  },
+  {
+    path: 'preguntas',
+    loadChildren: () => import('./pages/preguntas/preguntas.module').then( m => m.PreguntasPageModule)
   }
   
 ];
